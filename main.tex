@@ -1,12 +1,10 @@
 \documentclass{article}
 
 \author{Ihr Name}
-
-% Was passiert, wenn Sie das Datum weglassen oder ändern?
 \date{\today}
 
-% Was ändert diese Zeile?
 \usepackage[ngerman]{babel}
+\usepackage{lipsum}
 
 \title{Einführung in \LaTeX}
 
@@ -14,37 +12,18 @@
 
 \maketitle
 
-\section{Grundlagen}
+\section{Erster Abschnitt}
 
-\subsection{Textformatierung}
+\subsection{Erster Teilabschnitt}
 
-% Erklären Sie den Output der folgenden Zeile.
-Man kann Leerzeichen     beliebig     verwenden, diese gelten aber nur als ein einzelner freier Raum.
+\lipsum[1-2]
 
-\vspace{1em}
+\subsection{Zweiter Teilabschnitt}
 
-% Erklären Sie den Output der folgenden Zeile.
-\noindent Wofür nutzt man \LaTeX?
+\lipsum[3-4]
 
-\noindent\LaTeX     eignet sich zur Erstellung von wissenschaftlichen Arbeiten.
+\subsection{Dritter Teilabschnitt}
 
-\noindent\LaTeX{} eignet sich zur Erstellung von wissenschaftlichen Arbeiten.
-
-\noindent\LaTeX\ eignet sich zur Erstellung von wissenschaftlichen Arbeiten.
-
-\vspace{1em}
-
-\noindent Man kann in \LaTeX{} Wörter \textbf{fett}, \textit{kursiv} oder \underline{unterstrichen} darstellen.
-
-\vspace{1em}
-
-% Fügen Sie leere Zeilen zwischen den Absätzen ein. Was passiert?
-Dieser Satz ist einer von mehreren, um einen Absatz zu erstellen. Dieser Satz ist einer von mehreren, um einen Absatz zu erstellen. Dieser Satz ist einer von mehreren, um einen Absatz zu erstellen.
-Dieser Satz ist einer von mehreren, um einen Absatz zu erstellen. Dieser Satz ist einer von mehreren, um einen Absatz zu erstellen. Dieser Satz ist einer von mehreren, um einen Absatz zu erstellen.
-
-\subsection{Sonderzeichen}
-
-% Warum können Sie nicht \\ schreiben?
-Sonderzeichen wie \$, \# und \% lassen sich ebenfalls darstellen, haben aber in \LaTeX{} eine eigene Bedeutung, weswegen ihnen ein \textbackslash{} vorangestellt werden muss.
+\lipsum[5-6]
 
 \end{document}
