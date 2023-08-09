@@ -1,8 +1,13 @@
 \documentclass[twocolumn]{article}
 
-
 \usepackage[ngerman]{babel}
 \usepackage{lipsum}
+\usepackage[
+  style=authoryear,
+  autocite=footnote,
+  url=false,
+  giveninits,
+]{biblatex}
 
 % Muss vor \author etc. geladen werden
 \usepackage{titling}
@@ -20,6 +25,8 @@
 \renewcommand{\headrulewidth}{0.1pt}
 \renewcommand{\footrulewidth}{0.1pt}
 
+\addbibresource{bibliography.bib}
+
 \title{Einführung in \LaTeX}
 
 \begin{document}
@@ -32,14 +39,16 @@
 
 \subsection{Erster Teilabschnitt}
 
-\lipsum[1-2]
+Zum Einstieg in \LaTeX{} existieren hilfreiche Bücher \autocite{oetiker_2022}. Verweise auf Literatur werden mit \verb|\autocite| erzeugt. \citeauthor{mitchell_machine_1997} hat \citeyear{mitchell_machine_1997} ein Buch über maschinelles Lernen mit dem Titel \citetitle{mitchell_machine_1997} geschrieben.
 
 \subsection{Zweiter Teilabschnitt}
 
-\lipsum[3-4]
+\lipsum[1-5]
 
 \subsection{Dritter Teilabschnitt}
 
-\lipsum[5-6]
+\lipsum[6-9]
+
+\printbibliography
 
 \end{document}
