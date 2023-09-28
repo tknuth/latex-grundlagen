@@ -1,0 +1,42 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{subcaption}
+
+\begin{document}
+
+% Setzen Sie ein Bild z.B. von Wikipedia ein und schneiden Sie es mit der Option `trim` zu.
+% https://devdocs.io/latex/_005cincludegraphics
+% Was passiert, wenn Sie `\caption*{}` verwenden?
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{example-image-a}
+  \caption{Ein Platzhalter mit dem Buchstaben A.}
+  \label{fig:img-a}
+\end{figure}
+
+Die Abbildung~\ref{fig:img-a} zeigt einen Platzhalter mit dem Buchstaben A.
+\lipsum[1]
+
+% Probieren Sie verschiedene Werte für `scale` aus.
+% Versuchen Sie, drei Abbildungen mit kleinen Abständen nebeneinander zu platzieren.
+\begin{figure}
+  \begin{minipage}{\linewidth}
+    \begin{minipage}{0.5\linewidth}
+      \centering
+      \includegraphics[scale=0.4,angle=0]{example-image-a}
+      \subcaption{Platzhalter A}
+    \end{minipage}% <- sonst wird hier ein Leerzeichen eingefügt
+    \begin{minipage}{0.5\linewidth}
+      \centering
+      \includegraphics[scale=0.4,angle=0]{example-image-b}
+      \subcaption{Platzhalter B}
+    \end{minipage}
+    \caption{Zwei Buchstaben in einer Abbildung.}
+  \end{minipage}
+\end{figure}
+
+\lipsum[3-5]
+
+\end{document}
