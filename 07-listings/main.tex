@@ -1,0 +1,41 @@
+\documentclass{article}
+
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{lipsum}
+\usepackage{courier}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+
+\lstset{ %
+  basicstyle=\ttfamily,
+  commentstyle=\color{codegray}\textit,
+  keywordstyle=\bfseries\color{codepurple},
+  % numbers=left,
+  % numbersep=-1em,
+  xleftmargin=-24pt,
+  numberstyle=\footnotesize\color{codegray},
+  stringstyle=\color{codegreen}
+}
+
+\begin{document}
+
+\lipsum[1-3]
+
+\begin{figure}
+  \centering
+  \begin{lstlisting}[language=Python]
+    # Dies ist ein Kommentar.
+    import pandas as pd
+    df = pd.DataFrame({"a": [1, 2, 3], "b": [1, 4, 9]})
+       
+    if __name__ == "__main__":
+        print("Hello World!")
+  \end{lstlisting}
+  \caption{Python-Code}
+  \label{lst:python-code}
+\end{figure}
+
+\end{document}
