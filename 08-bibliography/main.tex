@@ -1,0 +1,50 @@
+\documentclass[oneside]{book}
+
+\usepackage[ngerman]{babel}
+\usepackage{lipsum}
+\usepackage[
+  style=authoryear,
+  autocite=footnote,
+  url=false,
+  giveninits,
+]{biblatex}
+
+% Muss vor \author etc. geladen werden
+% Wofür ist dieses Paket?
+\usepackage{titling}
+
+\author{Mein Name}
+\date{\today}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[L]{\nouppercase\leftmark}
+\fancyhead[C]{}
+\fancyhead[R]{\theauthor} % \MakeUppercase{\theauthor} 
+\fancyfoot[L,C]{}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0.1pt}
+\renewcommand{\footrulewidth}{0.1pt}
+
+\addbibresource{bibliography.bib}
+
+\title{Bibliographien in \LaTeX}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+
+\chapter{Einführung}
+
+Zum Einstieg in \LaTeX{} existieren hilfreiche Bücher \autocite{oetiker_2022}. Verweise auf Literatur werden hauptsächlich mit \verb|\autocite{}| erzeugt. \citeauthor{mitchell_machine_1997} hat \citeyear{mitchell_machine_1997} ein Buch\autocite{mitchell_machine_1997} über maschinelles Lernen mit dem Titel \citetitle{mitchell_machine_1997} geschrieben.
+
+\newpage
+
+\lipsum[1-3]
+
+\printbibliography
+
+\end{document}
