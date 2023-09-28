@@ -7,3 +7,4 @@
 | Listen      | <a href="https://www.overleaf.com/docs?snip_uri=https://raw.githubusercontent.com/tknuth/latex-grundlagen/master/03-listen/main.tex">in Overleaf öffnen</a>      |
 | Abbildungen | <a href="https://www.overleaf.com/docs?snip_uri=https://raw.githubusercontent.com/tknuth/latex-grundlagen/master/04-abbildungen/main.tex">in Overleaf öffnen</a> |
 | Tabellen    | <a href="https://www.overleaf.com/docs?snip_uri=https://raw.githubusercontent.com/tknuth/latex-grundlagen/master/05-tabellen/main.tex">in Overleaf öffnen</a>    |
+| Mathematik  | <a href="https://www.overleaf.com/docs?snip_uri=https://raw.githubusercontent.com/tknuth/latex-grundlagen/master/06-mathematik/main.tex">in Overleaf öffnen</a>  |

@@ -1,0 +1,31 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{lipsum}
+
+\begin{document}
+
+% Üben Sie den Umgang mit Formeln anhand mithilfe von Kapitel 3 aus dem folgenden Buch:
+% https://tobi.oetiker.ch/lshort/lshort.pdf
+
+Die Formel \(a^2+b^2=c^2\) ist auch als Satz des Pythagoras bekannt. Die untenstehende Gleichung beschreibt eine lineare Regression. Es gilt entsprechend $\sqrt{a^2+b^2}=c$.
+
+\begin{equation}
+  \hat{y} = \hat{\alpha}+\hat{\beta}x + \epsilon
+\end{equation}
+
+\begin{equation}
+  \mathit{R}^2=\frac{SSR}{SST}=
+  \frac{\sum\nolimits \left(\hat{y}_i-\overline{y}\right)^2}{\sum\nolimits\left(y_i-\overline{y}\right)^2}=1-\frac{SSE}{SST}=1-\frac{\sum\nolimits\left(y_i-\hat{y}_i\right)^2}{\sum\nolimits \left(y_i-\overline{y}\right)^2}
+\end{equation}
+
+\vspace{1em}
+\lipsum[1]
+
+\begin{align}
+  \hat{y} & = \hat{\alpha}+\hat{\beta}x \\
+  y       & = \alpha+\beta x+\epsilon
+\end{align}
+
+\end{document}
