@@ -1,0 +1,61 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage[ngerman]{babel}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{lipsum}
+
+\begin{document}
+
+% Vergleichen Sie die Positionierung der Tabellen im Code und im PDF-Dokument
+% Was fällt Ihnen auf? Lesen Sie in der Dokumentation von `table` und `floats`
+% nach, wie Sie die Positionierung der Tabellen beeinflussen können.
+% https://devdocs.io/latex/table
+% https://devdocs.io/latex/floats
+
+\lipsum[1]
+
+% Erweitern Sie die Tabelle um eine Spalte namens `Quadrat` an
+% und schreiben Sie dort die Quadrate der Zahlen hinein
+\begin{table}
+  \centering
+  \begin{tabular}{ccc} % vertikale Linien mit |
+    \toprule
+    $n$ & Primzahl & Teiler \\
+    \midrule
+    2   & ja       &        \\
+    3   & ja       &        \\
+    4   & nein     & 2      \\
+    5   & ja       &        \\
+    6   & nein     & 2,3    \\
+    7   & ja       &        \\
+    8   & nein     & 2,4    \\
+    \bottomrule
+  \end{tabular}
+  \caption{Ein paar Zahlen.}
+  \label{tab:zahlen1}
+\end{table}
+
+\begin{table}
+  \centering
+  \begin{tabular}{ccc}
+    \toprule
+    \multirow{2}*{$n$} & \multicolumn{2}{c}{Eigenschaften}          \\
+    \cmidrule{2-3}
+                       & Primzahl                          & Teiler \\
+    \midrule
+    2                  & ja                                &        \\
+    3                  & ja                                &        \\
+    4                  & nein                              & 2      \\
+    5                  & ja                                &        \\
+    6                  & nein                              & 2,3    \\
+    7                  & ja                                &        \\
+    8                  & nein                              & 2,4    \\
+    \bottomrule
+  \end{tabular}
+  \caption{Ein paar Zahlen.}
+  \label{tab:zahlen2}
+\end{table}
+
+\end{document}
