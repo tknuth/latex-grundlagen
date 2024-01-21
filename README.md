@@ -2,7 +2,7 @@
 
 ## Einführung
 
-Mit $\LaTeX{}$ lassen sich wissenschaftliche Dokumente erstellen. Dieses Repository enthält einige Beispiele und Übungen, um den Umgang mit $\LaTeX{}$ zu erlernen. Editoren für $\LaTeX{}$ existieren für viele Betriebssysteme. Eine Übersicht und einen Vergleich beliebter Editoren und Dienste bietet Wikipedia [hier](https://en.wikipedia.org/wiki/Comparison_of_TeX_editors). Die in diesem Repository enthaltenen Vorlagen können per Klick direkt in Overleaf bearbeitet werden, einem Online-Editor im Browser. Die Verwendung von $\LaTeX{}$ hat Vor- und Nachteile.
+Mit $\LaTeX{}$ lassen sich wissenschaftliche Dokumente erstellen. Dieses Repository enthält einige Beispiele und Übungen, um den Umgang mit $\LaTeX{}$ zu erlernen. Editoren für $\LaTeX{}$ existieren für viele Betriebssysteme. Eine Übersicht und einen Vergleich beliebter Editoren und Dienste bietet [Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_TeX_editors). Die in diesem Repository enthaltenen Vorlagen können per Klick direkt in Overleaf bearbeitet werden, einem Online-Editor im Browser. Die Verwendung von $\LaTeX{}$ hat Vor- und Nachteile.
 
 Zu den Nachteilen gehören beispielsweise...
 
