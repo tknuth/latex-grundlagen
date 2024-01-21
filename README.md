@@ -27,13 +27,13 @@ Zu den zahlreichen Vorteilen zählen unter anderem:
 
 ## Ressourcen
 
-- [$\LaTeX{}$-Website](https://www.latex-project.org/get/)
+- [LaTeX-Website](https://www.latex-project.org/get/)
 - [30-minütige Einführung bei Overleaf](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
-- [DevDocs für $\LaTeX{}$](https://devdocs.io/latex/)
+- [DevDocs für LaTeX$](https://devdocs.io/latex/)
 - [Overleaf Keyboard Shortcuts](https://www.overleaf.com/latex/templates/overleaf-keyboard-shortcuts/pphdnzrwmttk.pdf)
-- [The Not So Short Introduction to $\LaTeX{}$ (PDF)](https://tobi.oetiker.ch/lshort/lshort.pdf)
+- [The Not So Short Introduction to LaTeX (PDF)](https://tobi.oetiker.ch/lshort/lshort.pdf)
 - [inoffizielle Dokumentation (PDF)](https://latexref.xyz/dev/latex2e.pdf)
-- [$\LaTeX{}$ Cheat Sheet (PDF)](https://wch.github.io/latexsheet/latexsheet.pdf)
+- [LaTeX Cheat Sheet (PDF)](https://wch.github.io/latexsheet/latexsheet.pdf)
 
 ## Vorlagen
 
