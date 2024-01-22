@@ -49,6 +49,7 @@ Zu den zahlreichen Vorteilen zählen unter anderem:
 | Mathematik    | [in Overleaf öffnen][6] |
 | Listings      | [in Overleaf öffnen][7] |
 | Bibliographie | [in Overleaf öffnen][8] |
+| TikZ          | [in Overleaf öffnen][9] |
 
 [1]: https://www.overleaf.com/docs?snip_uri=https://raw.githubusercontent.com/tknuth/latex-grundlagen/master/01-intro/main.tex
 [2]: https://www.overleaf.com/docs?snip_uri=https://raw.githubusercontent.com/tknuth/latex-grundlagen/master/02-struktur/main.tex
@@ -59,3 +60,5 @@ Zu den zahlreichen Vorteilen zählen unter anderem:
 [7]: https://www.overleaf.com/docs?snip_uri=https://raw.githubusercontent.com/tknuth/latex-grundlagen/master/07-listings/main.tex
 
 [8]: https://www.overleaf.com/docs?snip_uri[]=https://raw.githubusercontent.com/tknuth/latex-grundlagen/master/08-bibliographie/main.tex&snip_uri[]=https://raw.githubusercontent.com/tknuth/latex-grundlagen/master/08-bibliographie/bibliography.bib
+
+[9]: https://www.overleaf.com/docs?snip_uri=https://raw.githubusercontent.com/tknuth/latex-grundlagen/master/09-tikz/main.tex
