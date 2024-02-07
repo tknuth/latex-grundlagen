@@ -39,17 +39,18 @@ Zu den zahlreichen Vorteilen zählen unter anderem:
 
 ## Vorlagen
 
-| Dokument      | Link                    |
-| ------------- | ----------------------- |
-| Intro         | [in Overleaf öffnen][1] |
-| Struktur      | [in Overleaf öffnen][2] |
-| Listen        | [in Overleaf öffnen][3] |
-| Abbildungen   | [in Overleaf öffnen][4] |
-| Tabellen      | [in Overleaf öffnen][5] |
-| Mathematik    | [in Overleaf öffnen][6] |
-| Listings      | [in Overleaf öffnen][7] |
-| Bibliographie | [in Overleaf öffnen][8] |
-| TikZ          | [in Overleaf öffnen][9] |
+| Dokument      | Link                     |
+| ------------- | ------------------------ |
+| Intro         | [in Overleaf öffnen][1]  |
+| Struktur      | [in Overleaf öffnen][2]  |
+| Listen        | [in Overleaf öffnen][3]  |
+| Abbildungen   | [in Overleaf öffnen][4]  |
+| Tabellen      | [in Overleaf öffnen][5]  |
+| Mathematik    | [in Overleaf öffnen][6]  |
+| Listings      | [in Overleaf öffnen][7]  |
+| Bibliographie | [in Overleaf öffnen][8]  |
+| TikZ          | [in Overleaf öffnen][9]  |
+| Beamer        | [in Overleaf öffnen][10] |
 
 [1]: https://www.overleaf.com/docs?snip_uri=https://raw.githubusercontent.com/tknuth/latex-grundlagen/master/01-intro/main.tex
 [2]: https://www.overleaf.com/docs?snip_uri=https://raw.githubusercontent.com/tknuth/latex-grundlagen/master/02-struktur/main.tex
@@ -62,3 +63,4 @@ Zu den zahlreichen Vorteilen zählen unter anderem:
 [8]: https://www.overleaf.com/docs?snip_uri[]=https://raw.githubusercontent.com/tknuth/latex-grundlagen/master/08-bibliographie/main.tex&snip_uri[]=https://raw.githubusercontent.com/tknuth/latex-grundlagen/master/08-bibliographie/bibliography.bib
 
 [9]: https://www.overleaf.com/docs?snip_uri=https://raw.githubusercontent.com/tknuth/latex-grundlagen/master/09-tikz/main.tex
+[10]: https://www.overleaf.com/docs?snip_uri=https://raw.githubusercontent.com/tknuth/latex-grundlagen/master/10-beamer/main.tex
